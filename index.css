@@ -50,7 +50,7 @@ animation: move 1s infinite alternate;
 
 @media (max-width:480px) {
     span{
-        font-size: 1rem;
+        font-size: 5rem;
     }
     .liki-logo{
         width: 40vw;
