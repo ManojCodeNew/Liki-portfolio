@@ -1,0 +1,41 @@
+body{
+    background: #000000e6;
+    color: white;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+span{
+    color: red;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.liki-logo{
+    width: 10%;
+    /* height: 30%; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid white;
+animation: move 1s infinite alternate;
+}
+@keyframes move {
+    0%{
+        width: 0px;
+        border-color: aliceblue;
+        left: 0;
+    }
+    50%{
+        border-color: chartreuse;
+    }
+    100%{
+        border-color: rgb(0, 0, 0);
+        left: calc(100% - 100px);
+    }
+}
